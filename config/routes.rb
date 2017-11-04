@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
-  get 'main/home'
 
-  get 'main/about'
+  root 'main#home'
 
-  get 'main/solution'
+  get 'about_us' => 'main#about'
 
-  get 'main/contact_us'
+  get 'our_solution' => 'main#solution'
+
+  get 'contact_us' => 'main#contact_us'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
+
+
+ 
