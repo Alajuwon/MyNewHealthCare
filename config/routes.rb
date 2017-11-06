@@ -6,8 +6,12 @@ Rails.application.routes.draw do
 
   get 'our_solution' => 'main#solution'
 
-  get 'contact_us' => 'main#contact_us'
+  get 'blog' => 'main#blog'
 
+  get 'foundation' => 'main#foundation'
+
+	get 'contact_us' => 'main#contact_us'
+	
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
 

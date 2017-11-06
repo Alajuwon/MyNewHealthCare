@@ -10,4 +10,10 @@ class MainController < ApplicationController
 
   def contact_us
   end
+
+  def blog
+  end
+
+  def foundation
+  end
 end
