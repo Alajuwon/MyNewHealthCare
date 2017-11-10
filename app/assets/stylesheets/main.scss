@@ -134,11 +134,158 @@ Image credits: unsplash.com
 
 /*--------------------------------------------------- Information Section --------------------------------------------------*/
 
+.info-section1{
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+
 .first-display{
 	text-align: center;
-	font-size: 2em;
+	font-size:5em;
 	color: #004681;
 	margin-top: 1em;
+}
+
+/*--------------------------------------------------- Information Section 2 --------------------------------------------------*/
+
+.info-section2{
+  height: auto;
+}
+
+.awesome-icon-group{
+  font-size: 60px;
+  color: #00AEED;
+  text-align: center;
+
+}
+
+.awesome-wrap{
+  margin-bottom: 18em;
+}
+
+.awesome-text{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+
+.awesome-icon-group2{
+  font-size: 100px;
+  color: #00AEED;
+  text-align: center;
+  margin-top: 1em;
+
+}
+
+.button-guard{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+#circle{
+    margin-left: auto;  
+    margin-right: auto;
+    background-color: #004681;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#circle :hover{
+    background-color: #00AEED;
+
+}
+
+.underline{
+  width: 15%;
+  height:1px;
+  border: solid #00AEED;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  }
+
+
+/*--------------------------------------------------- Information Section 3 --------------------------------------------------*/
+
+.info-section3{
+  
+}
+
+
+.awesome-icon-group2{
+  font-size: 100px;
+  color: #00AEED;
+  text-align: center;
+  }
+
+/*-------------------------------------------------------- Video Section  --------------------------------------------------*/
+
+.info-section5{
+  background-color: #BDBDBD;
+  width: 100%;
+  height: 400px;
+  margin-top: 2em;
+}
+
+.video-wrap{
+  margin-top: 10em;
+  background-color: #00AEED; 
+}
+
+
+/*-------------------------------------------------------- White Paper Section  ------------------------------------------------*/
+
+.info-section6{
+  margin-bottom: 6em;
+}
+
+.second-display{
+  text-align: center;
+  color: #004681;
+  margin-top: 1em;
+
+}
+
+#wp-download{
+    background-color: #004681;
+    width: 350px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+/*-------------------------------------------------------- Closing Section  ------------------------------------------------*/
+
+
+
+.closing-section{
+  width: 100%;
+  height: 300px;
+  background-color: #212121;
+}
+
+.foot-notes{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+.foots{
+  margin-top: 50px;
 }
 
 
