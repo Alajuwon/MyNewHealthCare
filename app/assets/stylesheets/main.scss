@@ -22,7 +22,7 @@ Image credits: unsplash.com
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #00AEED;
+    background-color: white;
     border-color: #004681;
     opacity: .5;
 }
@@ -40,7 +40,8 @@ Image credits: unsplash.com
     top: 50%;
     left: 50%;
     z-index: 3;
-    color: #fff;
+    color: white;
+    letter-spacing: 10px;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 rgba(0,0,0,.75);
@@ -52,7 +53,6 @@ Image credits: unsplash.com
 }
 .hero h1 {
     font-size: 6em;    
-    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -84,6 +84,7 @@ Image credits: unsplash.com
     z-index: 2;
     background-color: #080d15;
     opacity: .3;
+     
 }
 
 /********************************/
@@ -112,13 +113,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818); 
+  background-image: url(https://static.pexels.com/photos/315788/pexels-photo-315788.jpeg); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+  background-image: url(https://static.pexels.com/photos/301632/pexels-photo-301632.jpeg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+  background-image: url(https://static.pexels.com/photos/325521/pexels-photo-325521.jpeg);
 }
 
 /*-------------------How to put ruby urls in background images---------------------------------------------------
@@ -172,7 +173,7 @@ So you could use either, they're the same thing.
 }
 
 .awesome-wrap{
-  margin-bottom: 250px;
+  
 }
 
 .awesome-text{
@@ -248,13 +249,12 @@ So you could use either, they're the same thing.
 .info-section5{
   background-color: #BDBDBD;
   width: 100%;
-  height: 400px;
+  height: 250px;
   margin-top: 2em;
 }
 
 .video-wrap{
-  margin-top: 10em;
-  background-color: #00AEED; 
+  margin-top: 7em; 
 }
 
 
@@ -304,7 +304,7 @@ So you could use either, they're the same thing.
 }
 
 .foots{
-  
+
   
 }
 
