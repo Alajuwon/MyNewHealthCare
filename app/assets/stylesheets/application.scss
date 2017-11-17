@@ -19,6 +19,16 @@
 @import "bootstrap"; 
 @import "font-awesome";
 
+body {
+  padding-top: 80px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
 
 #nav{
 	border-width: 0 0 5px;
