@@ -15,15 +15,15 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 100vh;
+    height: 65vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 100vh;
+    height: 65vh;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
     background-color: white;
-    border-color: #004681;
+    border-color: white;
     opacity: .5;
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -95,8 +95,8 @@ Image credits: unsplash.com
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
     color: #f5f5f5;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: white;
+    border-color: white;
     outline: none;
     margin: 20px auto;
 }
@@ -107,13 +107,13 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-  height: 100vh;
+  height: 65vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(https://static.pexels.com/photos/315788/pexels-photo-315788.jpeg); 
+  background-image: url(https://static.pexels.com/photos/347134/pexels-photo-347134.jpeg); 
 }
 .fade-carousel .slides .slide-2 {
   background-image: url(https://static.pexels.com/photos/301632/pexels-photo-301632.jpeg);
@@ -203,8 +203,8 @@ So you could use either, they're the same thing.
     margin-left: auto;  
     margin-right: auto;
     background-color: #004681;
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
 }
 
@@ -215,6 +215,15 @@ So you could use either, they're the same thing.
 
 .underline{
   width: 15%;
+  height:1px;
+  border: solid #00AEED;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.underline2{
+  width: 50%;
   height:1px;
   border: solid #00AEED;
   margin-right: auto;
@@ -244,17 +253,28 @@ So you could use either, they're the same thing.
   margin-top: 0em !important;
   }
 
+  .awesome-partner-header{
+    color: #004681;
+    text-align: center;
+  }
+
 /*-------------------------------------------------------- Video Section  --------------------------------------------------*/
 
 .info-section5{
-  background-color: #BDBDBD;
   width: 100%;
   height: 250px;
-  margin-top: 2em;
 }
 
 .video-wrap{
-  margin-top: 7em; 
+   
+}
+
+
+.third-display{
+  text-align: center;
+  font-size: 19px;
+  color: #004681;
+  margin-top: 2em;
 }
 
 
@@ -304,6 +324,7 @@ So you could use either, they're the same thing.
 }
 
 .foots{
+  margin-top: 20px;
 
   
 }

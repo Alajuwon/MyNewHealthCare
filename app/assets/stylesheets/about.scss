@@ -1,8 +1,23 @@
 
-
+.team-body{
+	background-color: white;
+	height: auto;
+}
 
 .about-header{
 	text-align: center;
 	margin-bottom: 1em;
+	font-family: sans-serif;
+	font-weight: 600;
 	
+}
+
+.team-name-header{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #00AEED;
+}
+
+.team-bio-para{
+	font-weight: 500;
 }
