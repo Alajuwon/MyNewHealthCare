@@ -337,6 +337,9 @@ So you could use either, they're the same thing.
 
 /*-------------------------------------------------------- Modal Section  ------------------------------------------------*/
 
+.modal-content{
+  height: 420px !important;
+}
 
 .modal-title{
   text-align: center;
@@ -366,3 +369,6 @@ So you could use either, they're the same thing.
 
 }
 
+#form-group-modal{
+  width: 100%;
+}

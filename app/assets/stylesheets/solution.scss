@@ -1,3 +1,7 @@
+.solution-body{
+	height: auto;
+}
+
 .solution-header{
 		color: #01579B;
     font-family: "Roboto Condensed", sans-serif;
@@ -10,3 +14,58 @@
     text-transform: uppercase;
 }
 
+.solution-description{
+	color: #01579B;
+	font-weight: 100;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 40px;
+	margin-bottom: 100px;
+}
+
+
+.solution-breakdown-section{
+	height: auto;
+}
+
+.solution-break-1{
+	background-color: #01579B;
+	height: 370px;
+
+}
+
+.solution-break-2{
+	background-color: white;
+	height: 370px;
+}
+
+
+.solution-icon-wrap{
+	padding: 0px;
+	text-align: center;
+}
+
+.solution-header-wrap{
+	padding: 30px;
+	text-align: center;
+}
+
+
+.solution-image{
+	height: 369px !important;
+}
+
+.solution-headings{
+	margin: 0px;
+	font-size: 25px;
+	font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  color: white;
+  line-height: 33px;
+}
+
+#box{
+	padding: 0px;
+}
