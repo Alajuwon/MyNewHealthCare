@@ -15,3 +15,12 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+
+var show = function(){
+    $('#seethru-popup').modal('show');
+};
+
+$(window).load(function(){
+    var timer = window.setTimeout(show,5000);
+});

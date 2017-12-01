@@ -262,12 +262,13 @@ So you could use either, they're the same thing.
 
 .info-section5{
   height: auto;
+  background-color: #004681
 }
 
 
 .third-display{
     text-align: center;
-    color: #004681;
+    color: white;
     margin-top: 2em;
     font-size: 22px;
     letter-spacing: 1px;
@@ -334,4 +335,34 @@ So you could use either, they're the same thing.
 }
 
 
+/*-------------------------------------------------------- Modal Section  ------------------------------------------------*/
+
+
+.modal-title{
+  text-align: center;
+  color: #1A237E;
+}
+
+
+.modal-phrase{
+  text-align: center;
+  color: #4c4e4f;
+  font-size: 18px;
+}
+
+.modal-content{
+  height: 265px;
+}
+
+
+.panel-foot{
+  height: 150px;
+  background-color: #FAFAFA;
+}
+
+#movement{
+  text-align: center;
+  color: #004681;
+
+}
 
