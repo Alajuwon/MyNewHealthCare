@@ -261,22 +261,22 @@ So you could use either, they're the same thing.
 /*-------------------------------------------------------- Video Section  --------------------------------------------------*/
 
 .info-section5{
-  width: 100%;
-  height: 250px;
-}
-
-.video-wrap{
-   
+  height: auto;
 }
 
 
 .third-display{
-  text-align: center;
-
-  color: #004681;
-  margin-top: 2em;
+    text-align: center;
+    color: #004681;
+    margin-top: 2em;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 40px;
 }
 
+.video-wrap{
+  height: auto;
+}
 
 /*-------------------------------------------------------- White Paper Section  ------------------------------------------------*/
 
@@ -312,8 +312,8 @@ So you could use either, they're the same thing.
 
 .closing-section{
   width: 100%;
-  height: 250px;
-  background-color: #212121;
+  height: 100px;
+  background-color: #BDBDBD;
 }
 
 .foot-notes{
@@ -321,6 +321,10 @@ So you could use either, they're the same thing.
   font-size: 100%;
   font-family: sans-serif;
 
+}
+
+#tele-foot{
+  color: white;
 }
 
 .foots{
