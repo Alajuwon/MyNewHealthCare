@@ -22,5 +22,5 @@ var show = function(){
 };
 
 $(window).load(function(){
-    var timer = window.setTimeout(show,5000);
+    var timer = window.setTimeout(show,20000);
 });
