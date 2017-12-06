@@ -24,3 +24,6 @@ var show = function(){
 $(window).load(function(){
     var timer = window.setTimeout(show,20000);
 });
+
+
+
